@@ -34,7 +34,7 @@ jobs:
         working-directory: src/problem2
       - run: npm test
         working-directory: src/problem2
-      - run: npm run build -- --base=/s5tech-fullstack-challenge/
+      - run: npm run build -- --base=/gin-fullstack-challenge/
         working-directory: src/problem2
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
